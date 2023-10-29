@@ -21,6 +21,8 @@ dev_dependencies:
 flutter:
   assets:
     - assets/images/
+    - assets/images/splash_images/
+    - assets/images/welcome_images/
 
   
   
