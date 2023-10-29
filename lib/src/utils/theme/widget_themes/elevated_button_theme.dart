@@ -25,7 +25,7 @@ class FElevatedButtonTheme{
       shape: const RoundedRectangleBorder(),
       foregroundColor: fSecondaryColor,
       backgroundColor: fWhiteColor,
-      side: const BorderSide(color: fSecondaryColor),
+      side: const BorderSide(color: fWhiteColor),
       padding: const EdgeInsets.symmetric(vertical: tButtonHeight),
     ),
   );

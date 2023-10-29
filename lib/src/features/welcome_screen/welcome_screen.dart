@@ -54,6 +54,7 @@ class WelcomeScreen extends StatelessWidget {
                       style: Theme.of(context).textTheme.displayLarge,
                       textAlign: TextAlign.center,
                     ),
+                    SizedBox(height: 10,)
                   ]),
                   Row(
                     children: [
