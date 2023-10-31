@@ -6,6 +6,7 @@ import 'package:mxpert/src/common_widgets/fade_in_animation/fade_in_animation_mo
 import 'package:mxpert/src/constants/image_strings.dart';
 import 'package:mxpert/src/constants/sizes.dart';
 import 'package:mxpert/src/constants/text_strings.dart';
+import 'package:mxpert/src/features/login_screen/login_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -54,13 +55,13 @@ class WelcomeScreen extends StatelessWidget {
                       style: Theme.of(context).textTheme.displayLarge,
                       textAlign: TextAlign.center,
                     ),
-                    SizedBox(height: 10,)
+                    const SizedBox(height: 10,)
                   ]),
                   Row(
                     children: [
                       Expanded(
                         child: OutlinedButton(
-                          onPressed: () {},
+                          onPressed: () => Get.to(() => const LoginScreen()),
                           child: Text(fLogin.toUpperCase()),
                         ),
                       ),

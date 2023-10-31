@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 import 'package:mxpert/src/features/welcome_screen/welcome_screen.dart';
 

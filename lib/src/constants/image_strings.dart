@@ -7,3 +7,6 @@ const String fSplashImage = "assets/images/splash_images/workplace.png";
 
 // welcome screen images
 const String fWelcomeScreenImage = "assets/images/welcome_images/welcome-screen-image.png";
+
+//logos
+const String fGoogleLogoImage = "assets/images/logos/google.png";
