@@ -14,7 +14,7 @@ class FElevatedButtonTheme{
       foregroundColor: fWhiteColor,
       backgroundColor: fSecondaryColor,
       side: const BorderSide(color: fSecondaryColor),
-      padding: const EdgeInsets.symmetric(vertical: tButtonHeight),
+      padding: const EdgeInsets.symmetric(vertical: fButtonHeight),
     ),
   );
 
@@ -26,7 +26,7 @@ class FElevatedButtonTheme{
       foregroundColor: fSecondaryColor,
       backgroundColor: fWhiteColor,
       side: const BorderSide(color: fWhiteColor),
-      padding: const EdgeInsets.symmetric(vertical: tButtonHeight),
+      padding: const EdgeInsets.symmetric(vertical: fButtonHeight),
     ),
   );
 }

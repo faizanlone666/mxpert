@@ -15,11 +15,12 @@ class LoginForm extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextFormField(
+              keyboardType: TextInputType.emailAddress,
               decoration: const InputDecoration(
                   prefixIcon: Icon(Icons.person_outline_outlined),
                   labelText: fEmail,
                   hintText: fEmail,
-                  border: OutlineInputBorder()),
+                  ),
             ),
             const SizedBox(
               height: 20,
@@ -32,7 +33,6 @@ class LoginForm extends StatelessWidget {
                   prefixIcon: Icon(Icons.fingerprint),
                   labelText: fPassword,
                   hintText: fPassword,
-                  border: OutlineInputBorder(),
                   suffixIcon: IconButton(
                       onPressed: null,
                       icon: Icon(Icons.remove_red_eye_sharp))),

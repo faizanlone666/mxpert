@@ -11,7 +11,7 @@ class FOutlinedButtonTheme{
       shape: const RoundedRectangleBorder(),
       foregroundColor: fSecondaryColor,
       side: const BorderSide(color: fSecondaryColor),
-      padding: const EdgeInsets.symmetric(vertical: tButtonHeight),
+      padding: const EdgeInsets.symmetric(vertical: fButtonHeight),
     ),
   );
 
@@ -21,7 +21,7 @@ class FOutlinedButtonTheme{
       shape: const RoundedRectangleBorder(),
       foregroundColor: fWhiteColor,
       side: const BorderSide(color: fWhiteColor),
-      padding: const EdgeInsets.symmetric(vertical: tButtonHeight),
+      padding: const EdgeInsets.symmetric(vertical: fButtonHeight),
     ),
   );
 

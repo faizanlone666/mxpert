@@ -2,13 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:mxpert/src/constants/image_strings.dart';
 import 'package:mxpert/src/constants/text_strings.dart';
 
-class LoginHeaderWidget extends StatelessWidget {
-  const LoginHeaderWidget({
+class FormHeaderWidget extends StatelessWidget {
+  const FormHeaderWidget({
     super.key,
     required this.size,
+    required this.image,
+    required this.title,
+    required this.subTitle,
   });
 
   final Size size;
+  final String image, title, subTitle;
 
   @override
   Widget build(BuildContext context) {
@@ -16,14 +20,14 @@ class LoginHeaderWidget extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Image(
-            image: const AssetImage(fWelcomeScreenImage),
+            image: AssetImage(image),
             height: size.height * 0.2),
         Text(
-          fLoginTitle,
+          title,
           style: Theme.of(context).textTheme.displayLarge,
         ),
         Text(
-          fLoginSubTitle,
+          subTitle,
           style: Theme.of(context).textTheme.bodyLarge,
         ),
       ],

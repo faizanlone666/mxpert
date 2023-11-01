@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:mxpert/src/common_widgets/form_widget/form_header_widget.dart';
 import 'package:mxpert/src/constants/image_strings.dart';
 import 'package:mxpert/src/constants/sizes.dart';
 import 'package:mxpert/src/constants/text_strings.dart';
-import 'package:mxpert/src/features/login_screen/login_footer_widget.dart';
-import 'package:mxpert/src/features/login_screen/login_form_widget.dart';
-import 'package:mxpert/src/features/login_screen/login_header_widget.dart';
+import 'package:mxpert/src/features/login/widgets/login_footer_widget.dart';
+import 'package:mxpert/src/features/login/widgets/login_form_widget.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -20,7 +20,7 @@ class LoginScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  LoginHeaderWidget(size: size),
+                  FormHeaderWidget(size: size, image: fWelcomeScreenImage, title: fLoginTitle, subTitle: fLoginSubTitle,),
                   const LoginForm(),
                   const LoginFooterWidget()
                 ],

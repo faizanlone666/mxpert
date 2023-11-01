@@ -6,7 +6,8 @@ import 'package:mxpert/src/common_widgets/fade_in_animation/fade_in_animation_mo
 import 'package:mxpert/src/constants/image_strings.dart';
 import 'package:mxpert/src/constants/sizes.dart';
 import 'package:mxpert/src/constants/text_strings.dart';
-import 'package:mxpert/src/features/login_screen/login_screen.dart';
+import 'package:mxpert/src/features/login/login_screen.dart';
+import 'package:mxpert/src/features/signup/signup_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -70,7 +71,7 @@ class WelcomeScreen extends StatelessWidget {
                       ),
                       Expanded(
                         child: ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () => Get.to(()=> const SignUpScreen()),
                           child: Text(fSignup.toUpperCase()),
                         ),
                       ),
