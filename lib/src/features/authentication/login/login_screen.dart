@@ -3,8 +3,8 @@ import 'package:mxpert/src/common_widgets/form_widget/form_header_widget.dart';
 import 'package:mxpert/src/constants/image_strings.dart';
 import 'package:mxpert/src/constants/sizes.dart';
 import 'package:mxpert/src/constants/text_strings.dart';
-import 'package:mxpert/src/features/login/widgets/login_footer_widget.dart';
-import 'package:mxpert/src/features/login/widgets/login_form_widget.dart';
+import 'package:mxpert/src/features/authentication/login/widgets/login_footer_widget.dart';
+import 'package:mxpert/src/features/authentication/login/widgets/login_form_widget.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});

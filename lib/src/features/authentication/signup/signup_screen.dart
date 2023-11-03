@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:mxpert/src/common_widgets/form_widget/form_header_widget.dart';
-import 'package:mxpert/src/constants/colors.dart';
 import 'package:mxpert/src/constants/image_strings.dart';
 import 'package:mxpert/src/constants/sizes.dart';
 import 'package:mxpert/src/constants/text_strings.dart';
-import 'package:mxpert/src/features/signup/widgets/signup_footer_widget.dart';
-import 'package:mxpert/src/features/signup/widgets/signup_form_widget.dart';
+import 'package:mxpert/src/features/authentication/signup/widgets/signup_footer_widget.dart';
+import 'package:mxpert/src/features/authentication/signup/widgets/signup_form_widget.dart';
 
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({super.key});

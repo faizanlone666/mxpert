@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:mxpert/src/constants/sizes.dart';
 import 'package:mxpert/src/constants/text_strings.dart';
+import 'package:mxpert/src/features/authentication/forget_password/forget_password_screen.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({
@@ -17,10 +20,10 @@ class LoginForm extends StatelessWidget {
             TextFormField(
               keyboardType: TextInputType.emailAddress,
               decoration: const InputDecoration(
-                  prefixIcon: Icon(Icons.person_outline_outlined),
-                  labelText: fEmail,
-                  hintText: fEmail,
-                  ),
+                prefixIcon: Icon(Icons.person_outline_outlined),
+                labelText: fEmail,
+                hintText: fEmail,
+              ),
             ),
             const SizedBox(
               height: 20,
@@ -34,8 +37,7 @@ class LoginForm extends StatelessWidget {
                   labelText: fPassword,
                   hintText: fPassword,
                   suffixIcon: IconButton(
-                      onPressed: null,
-                      icon: Icon(Icons.remove_red_eye_sharp))),
+                      onPressed: null, icon: Icon(Icons.remove_red_eye_sharp))),
             ),
             const SizedBox(
               height: 20,
@@ -43,15 +45,27 @@ class LoginForm extends StatelessWidget {
             Align(
               alignment: Alignment.centerRight,
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  // showModalBottomSheet(
+                  //   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+                  //   context: context,
+                  //   builder: (context) => Container(
+                  //     padding: const EdgeInsets.all(fDefaultSize),
+                  //     child: const Column(
+                  //       crossAxisAlignment: CrossAxisAlignment.start,
+                  //       children: [],
+                  //     ),
+                  //   ),
+                  // );
+                  Get.to(()=> const ForgetPasswordScreen());
+                },
                 child: const Text(fForgetPassword),
               ),
             ),
             SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                    onPressed: () {},
-                    child: Text(fLogin.toUpperCase())))
+                    onPressed: () {}, child: Text(fLogin.toUpperCase())))
           ],
         ),
       ),

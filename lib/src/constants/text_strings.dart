@@ -9,6 +9,7 @@ const String fPassword = "Password";
 const String fPhoneNo = "Phone No";
 const String fForgetPassword = "Forget Password?";
 const String fSignInWithGoogle = "Sign-In with Google";
+const String fNext = "Next";
 
 //splash screen text
 const String fAppName = ".mxpert";
@@ -28,3 +29,11 @@ const String fDontHaveAnAccount = "Don't have an Account?";
 const String fSignUpTitle = "Get On Board";
 const String fSignUpSubTitle = "Create your profile to start your Journey with us...";
 const String fAlreadyHaveAnAccount = "Already have an Account?";
+
+//forget password screen
+const String fForgetMailSubTitle = "Enter your registered E-Mail to receive OTP";
+
+//OTP screen
+const String fOtpTitle= "mxp\nert";
+const String fOtpSubTitle = "Verification";
+const String fOtpMessage = "Enter the verification code sent at ";

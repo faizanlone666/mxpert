@@ -10,3 +10,6 @@ const String fWelcomeScreenImage = "assets/images/welcome_images/welcome-screen-
 
 //logos
 const String fGoogleLogoImage = "assets/images/logos/google.png";
+
+//forget password
+const String fForgetPasswordImage = "assets/images/forget_password/forget-password-image.png";
