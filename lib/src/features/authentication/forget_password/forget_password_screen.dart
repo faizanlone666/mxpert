@@ -25,7 +25,7 @@ class ForgetPasswordScreen extends StatelessWidget {
                 FormHeaderWidget(
                   size: size,
                   image: fForgetPasswordImage,
-                  title: fForgetPassword,
+                  title: fForgetPasswordOtpScreen,
                   subTitle: fForgetMailSubTitle,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   heightBetween: fDefaultSize,

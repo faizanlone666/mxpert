@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:mxpert/src/constants/sizes.dart';
 import 'package:mxpert/src/constants/text_strings.dart';
 import 'package:mxpert/src/features/authentication/forget_password/forget_password_screen.dart';
+import 'package:mxpert/src/features/homepage_screen/homepage_screen.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({
@@ -65,7 +66,7 @@ class LoginForm extends StatelessWidget {
             SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                    onPressed: () {}, child: Text(fLogin.toUpperCase())))
+                    onPressed: (()=> Get.to(()=> const HomePageScreen())) , child: Text(fLogin.toUpperCase())))
           ],
         ),
       ),

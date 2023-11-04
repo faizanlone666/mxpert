@@ -28,18 +28,31 @@ class OTPScreen extends StatelessWidget {
               const SizedBox(
                 height: fDefaultSize + 10,
               ),
-              const Text("$fOtpMessage mexpert@mexpert.com",textAlign: TextAlign.center,),
-              const SizedBox(height: fDefaultSize - 10,),
+              const Text(
+                "$fOtpMessage mexpert@mexpert.com",
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(
+                height: fDefaultSize - 10,
+              ),
               OtpTextField(
                 numberOfFields: 6,
                 fillColor: Colors.black.withOpacity(0.1),
                 filled: true,
-                onSubmit: (code){
+                onSubmit: (code) {
                   print("otp is =>  $code");
                 },
               ),
-              const SizedBox(height: fDefaultSize - 10,),
-              SizedBox(width: double.infinity,child: ElevatedButton(onPressed: (){}, child: const Text(fNext)))
+              const SizedBox(
+                height: fDefaultSize - 10,
+              ),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: () {},
+                  child: const Text(fNext),
+                ),
+              ),
             ],
           ),
         ),

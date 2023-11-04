@@ -37,3 +37,13 @@ const String fForgetMailSubTitle = "Enter your registered E-Mail to receive OTP"
 const String fOtpTitle= "mxp\nert";
 const String fOtpSubTitle = "Verification";
 const String fOtpMessage = "Enter the verification code sent at ";
+const String fForgetPasswordOtpScreen = "Forget Password";
+
+//home screen
+const String fHomeScreenTitle = "Good Morning";
+const String fHomeScreenSubTitle = "Faizan";
+const String fTotalBalance = "Total Balance";
+const String fIncome = "Income";
+const String fExpenses = "Expenses";
+const String fTransactionHistory = "Transaction History";
+const String fSeeAll = "See All";
