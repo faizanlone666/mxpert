@@ -47,3 +47,13 @@ const String fIncome = "Income";
 const String fExpenses = "Expenses";
 const String fTransactionHistory = "Transaction History";
 const String fSeeAll = "See All";
+
+//statistics screen
+const String fStatisticsTitle = "Statistics";
+const String fDay = "Day";
+const String fMonth= "Month";
+const String fWeek = "Week";
+const String fYear = "year";
+const String fExpenseButtonText = "Expense";
+const String fIncomeButtonText = "Income";
+const String fTopSpending = "Top Spending";

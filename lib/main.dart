@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mxpert/src/features/homepage_screen/homepage_screen.dart';
 import 'package:mxpert/src/features/splash_screen/splash_screen.dart';
+import 'package:mxpert/src/features/statistics_screen/statistics_screen.dart';
 import 'package:mxpert/src/utils/theme/theme.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       defaultTransition: Transition.leftToRightWithFade,
       transitionDuration: const Duration(milliseconds: 500),
-      home: const HomePageScreen(),
+      home: const StatisticsScreen(),
     );
   }
 }
