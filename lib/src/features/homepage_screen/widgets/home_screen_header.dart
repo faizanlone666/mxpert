@@ -22,7 +22,7 @@ class HomeScreenHeader extends StatelessWidget {
           height: size.height * 0.25,
           width: double.infinity,
           decoration: const BoxDecoration(
-            color: Colors.black87,
+            color: fPrimaryColor,
             borderRadius: BorderRadius.only(
               bottomLeft: Radius.circular(20.0),
               bottomRight: Radius.circular(20.0),

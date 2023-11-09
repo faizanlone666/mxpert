@@ -24,7 +24,8 @@ class HomeScreenCardWidget extends StatelessWidget {
         height: 170,
         width: 340,
         decoration: BoxDecoration(
-            color: Colors.grey[850], borderRadius: BorderRadius.circular(15.0)),
+            color: const Color.fromARGB(255, 47, 125, 121),
+            borderRadius: BorderRadius.circular(15.0)),
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
@@ -73,7 +74,7 @@ class HomeScreenCardWidget extends StatelessWidget {
                           children: [
                             const CircleAvatar(
                                 radius: 13,
-                                backgroundColor: Color(0xFF616161),
+                                backgroundColor: Color.fromARGB(255, 85, 145, 141),
                                 child: Icon(
                                   Icons.arrow_downward,
                                   color: Colors.white,
@@ -114,7 +115,7 @@ class HomeScreenCardWidget extends StatelessWidget {
                           children: [
                             const CircleAvatar(
                                 radius: 13,
-                                backgroundColor: Color(0xFF616161),
+                                backgroundColor: Color.fromARGB(255, 85, 145, 141),
                                 child: Icon(
                                   Icons.arrow_upward,
                                   color: Colors.white,

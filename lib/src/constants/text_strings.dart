@@ -57,3 +57,6 @@ const String fYear = "year";
 const String fExpenseButtonText = "Expense";
 const String fIncomeButtonText = "Income";
 const String fTopSpending = "Top Spending";
+
+// add Income and Expenses screen
+const String fAddScreenTitle = "Add";

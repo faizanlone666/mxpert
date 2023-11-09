@@ -12,7 +12,6 @@ class StatisticsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List day = [fDay, fWeek, fMonth, fYear];
-    int indexColor = 0;
     final statisticsController = Get.put(StatisticsController());
     return Scaffold(
       body: SafeArea(
