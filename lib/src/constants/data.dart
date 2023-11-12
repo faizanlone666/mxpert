@@ -27,3 +27,7 @@ List<DataModelForHomeScreen> listData = [
       date: "05/11/2023",
       logo: fGoogleLogoImage),
 ];
+
+addData(DataModelForHomeScreen dataModelForHomeScreen){
+  listData.add(dataModelForHomeScreen);
+}

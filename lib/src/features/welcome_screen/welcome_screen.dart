@@ -12,6 +12,7 @@ import 'package:mxpert/src/features/authentication/signup/signup_screen.dart';
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
 
+
   @override
   Widget build(BuildContext context) {
     final controller = Get.put(FadeInAnimationController());

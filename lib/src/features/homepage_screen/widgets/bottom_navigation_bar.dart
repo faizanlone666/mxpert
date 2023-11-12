@@ -3,8 +3,10 @@ import 'package:get/get.dart';
 import 'package:mxpert/src/features/homepage_screen/controllers/home_screen_controller.dart';
 import 'package:mxpert/src/features/homepage_screen/homepage_screen.dart';
 import 'package:mxpert/src/features/homepage_screen/widgets/add_screen.dart';
+import 'package:mxpert/src/features/profile_screen/profile_screen.dart';
 import 'package:mxpert/src/features/statistics_screen/chart_screen/chart_screen.dart';
 import 'package:mxpert/src/features/statistics_screen/statistics_screen.dart';
+import 'package:mxpert/src/features/transaction_screen/transaction_screen.dart';
 
 class BottomNavigationBarWidget extends StatelessWidget {
   const BottomNavigationBarWidget({super.key});
@@ -12,7 +14,7 @@ class BottomNavigationBarWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final homePageController = Get.put(HomeScreenController());
-    List screens = [const HomePageScreen(), const StatisticsScreen(),const HomePageScreen(), const StatisticsScreen()];
+    List screens = [const HomePageScreen(), const StatisticsScreen(),const TransactionScreen(), const ProfileScreen()];
     return Obx(()=> Scaffold(
       body: screens[homePageController.indexColor.value],
       floatingActionButton: FloatingActionButton(
@@ -51,7 +53,7 @@ class BottomNavigationBarWidget extends StatelessWidget {
                     homePageController.getPages(2);
                   },
                   child: Icon(
-                    Icons.account_balance_wallet_outlined,
+                    Icons.table_rows,
                     size: 30,
                     color: homePageController.indexColor.value == 2 ? const Color(0xff368983) : Colors.grey,
                   ),
