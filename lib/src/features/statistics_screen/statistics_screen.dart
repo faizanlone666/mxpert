@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mxpert/src/constants/colors.dart';
 import 'package:mxpert/src/constants/data.dart';
 import 'package:mxpert/src/constants/text_strings.dart';
 import 'package:mxpert/src/features/statistics_screen/chart_screen/chart_screen.dart';
@@ -108,7 +107,7 @@ class StatisticsScreen extends StatelessWidget {
                       ],
                     ),
                   ),
-                  const ChartScreen(),
+                  ChartScreen(staticController: statisticsController,),
                   const SizedBox(
                     height: 20.0,
                   ),

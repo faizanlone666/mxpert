@@ -21,7 +21,7 @@ class HomeScreenHeaderWidget extends StatelessWidget {
           name: fHomeScreenSubTitle,
         ),
         const HomeScreenCardWidget(
-            totalBalance: 0, income: 3500471800, expenses: 2120148539),
+            totalBalance: 0, income: 350047180, expenses: 2120148539),
       ],
     );
   }
